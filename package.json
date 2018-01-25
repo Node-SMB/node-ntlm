@@ -1,6 +1,6 @@
 {
   "name": "ntlm",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "devDependencies": {
     "nodeunit": "*"
   },
@@ -18,5 +18,8 @@
   ],
   "main": "lib/ntlm.js",
   "description": "NTLM authentication and Samba LM/NT hash library",
-  "homepage": "https://github.com/tcr/node-ntlm"
+  "homepage": "https://github.com/tcr/node-ntlm",
+  "scripts": {
+    "test": "node ./run_tests.js"
+  }
 }
